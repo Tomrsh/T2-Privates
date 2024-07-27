@@ -5,6 +5,6 @@ function Play() {
     console.log("Succesfull !");
     let vido = document.getElementById("vid");
     vido.style.visibility = "visible";
-    
+    vido.play();
 }
 btn.addEventListener('click', Play);

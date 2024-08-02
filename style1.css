@@ -6,7 +6,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    background-image: url("Images/backt.jpg");
+    background-color: #000;
     background-size: cover;
     box-shadow: 1px 2.50px silver 1.50px;
   }

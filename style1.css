@@ -11,7 +11,7 @@
     box-shadow: 1px 2.50px silver 1.50px;
   }
   
-  #backGround{
+  #backGround , a{
     margin-top: 180px;
     width: 150px;
     height: 150px;

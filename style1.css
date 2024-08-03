@@ -10,9 +10,18 @@
     background-size: cover;
     box-shadow: 1px 2.50px silver 1.50px;
   }
-  
-  #backGround , a{
+  a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
     margin-top: 180px;
+    width: 150px;
+    height: 150px;
+    box-shadow: 0 4px 8px 0 rgb(19, 16, 16), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  
+  }
+  #backGround {
+    
     width: 150px;
     height: 150px;
     box-shadow: 0 4px 8px 0 rgb(19, 16, 16), 0 6px 20px 0 rgba(0, 0, 0, 0.19);

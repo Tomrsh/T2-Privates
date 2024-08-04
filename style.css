@@ -16,25 +16,32 @@ body{
 }
 
 #mainDiv{ 
-  margin-top: 8vh;
+  margin-top: 9vh;
   width: 360px;
-  height: 390px;
+  height: 430px;
 }
 #back{
-  margin-top: 1vh;
+  margin-top: 2.75vh;
   margin-left: 15px;
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 330px;
-  height: 330px;
+  width: 320px;
+  height: 320px;
+  background-size: cover;
   background-image: url("https://firebasestorage.googleapis.com/v0/b/t2upload.appspot.com/o/Videos%2FIMG_20240804_082708_337.jpg?alt=media&token=8c5f6c01-f847-4704-9de0-95ca70fab18f");
+  
+  border-radius: 15px;
+  box-shadow: 0 4px 8px 0 rgb(192, 190, 190), 0 6px 20px 0 rgba(250, 251, 252, 0.19);
+    
 }
 #vid{
   visibility: hidden;
   border-radius: 8px;
   width: 130px;
   height: 230px;
+  box-shadow: 0 4px 8px 0 rgb(15, 12, 12), 0 6px 20px 0 rgba(250, 251, 252, 0.19);
+ 
 }
 #Btn{
   cursor: pointer;
@@ -47,5 +54,11 @@ body{
   border-radius: 8px;
   font-size: 25px;
   font-weight: bold;
-  background-color: rgb(37, 37, 90);
+  background-color: rgb(66, 66, 95);
+}
+#Btn:hover{
+  background-color: rgb(5, 90, 248);
+  border-color: rgb(153, 155, 155);
+  box-shadow: 0 6px 10px 0 rgb(9, 89, 238), 0 8px 15px 0 rgba(250, 251, 252, 0.19);
+    
 }

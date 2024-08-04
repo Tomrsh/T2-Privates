@@ -28,7 +28,7 @@ body{
   align-items: center;
   width: 330px;
   height: 330px;
-  background-image: url("Images/OIG3.jpeg");
+  background-image: url("https://firebasestorage.googleapis.com/v0/b/t2upload.appspot.com/o/Videos%2FIMG_20240804_082708_337.jpg?alt=media&token=8c5f6c01-f847-4704-9de0-95ca70fab18f");
 }
 #vid{
   visibility: hidden;

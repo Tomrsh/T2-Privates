@@ -7,6 +7,7 @@ function Playing() {
     
     vido.style.visibility = "visible";
     vido.play();
+    vido.loop();
 }
 btn.addEventListener('click', () => {
     Playing();
